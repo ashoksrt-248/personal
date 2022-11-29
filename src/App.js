@@ -1,15 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import { Audio, BallTriangle, Dna, RotatingTriangles } from 'react-loader-spinner';
+import Ashok from './images/Ashok img.png';
+
 
 function App() {
   
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React personal portfolio</h1>
+        <h1 className='animate-charcter'>Ashok personal portfolio</h1>
+        <div>
+        <img  className='ashokPhoto' src={Ashok} alt={"ashok"}/>
+        
+        </div>
         <marquee  direction="left"><h2>Ashok Amara</h2></marquee>
-        <marquee direction="right"><h2>personal Portfolio</h2></marquee>
+        
         <div className='flexBox'>
           <div>
             <Audio
