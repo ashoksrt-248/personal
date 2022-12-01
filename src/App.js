@@ -18,15 +18,16 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <NavbarPage />
-        <BrowserRouter>
+        {/* <NavbarPage /> */}
+        <Home />
+        {/* <BrowserRouter>
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             
           </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
 
         {/* <Home /> */}
 
