@@ -1,5 +1,5 @@
 import React from 'react';
-import { Audio, BallTriangle, Dna, RotatingTriangles } from 'react-loader-spinner';
+import { Audio, BallTriangle, Dna, RotatingTriangles, CirclesWithBar, Circles } from 'react-loader-spinner';
 import Ashok from '../images/Ashok img.png';
 const Home = () => {
   return (
@@ -55,6 +55,31 @@ const Home = () => {
               wrapperStyle={{}}
               wrapperClass="rotating-triangels-wrapper"
               colors={['white','orange','green']}
+            />
+          </div>
+          <div>
+            <CirclesWithBar
+                height="100"
+                width="100"
+                color="#4fa94d"
+                wrapperStyle={{}}
+                wrapperClass=""
+                visible={true}
+                outerCircleColor="white"
+                innerCircleColor="blue"
+                barColor="orange"
+                ariaLabel='circles-with-bar-loading'
+            />
+          </div>
+          <div>
+            <Circles
+                height="80"
+                width="80"
+                color="#FFAF33"
+                ariaLabel="circles-loading"
+                wrapperStyle={{}}
+                wrapperClass=""
+                visible={true}
             />
           </div>
         </div>
