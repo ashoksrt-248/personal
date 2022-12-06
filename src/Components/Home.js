@@ -1,10 +1,13 @@
 import React from 'react';
 import { Audio, BallTriangle, Dna, RotatingTriangles, CirclesWithBar, Circles } from 'react-loader-spinner';
 import Ashok from '../images/Ashok img.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Home.css";
+import Container from 'react-bootstrap/Container';
 const Home = () => {
   return (
     <div>
-        <div>
+        <div className='Container'>
         <h1 className='animate-charcter'>Ashok personal portfolio</h1>
         <div>
             <marquee><img  className='ashokPhoto' src={Ashok} alt={"ashok"}/><h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ashok Amara</h2></marquee>
@@ -24,18 +27,7 @@ const Home = () => {
               wrapperClass
             />
           </div>
-          <div>
-            <BallTriangle
-              height={100}
-              width={100}
-              radius={5}
-              color="#4fa94d"
-              ariaLabel="ball-triangle-loading"
-              wrapperClass={{}}
-              wrapperStyle=""
-              visible={true}
-            />
-          </div>
+          
           <div>
             <Dna
               visible={true}
@@ -58,24 +50,10 @@ const Home = () => {
             />
           </div>
           <div>
-            <CirclesWithBar
-                height="100"
-                width="100"
-                color="#4fa94d"
-                wrapperStyle={{}}
-                wrapperClass=""
-                visible={true}
-                outerCircleColor="white"
-                innerCircleColor="blue"
-                barColor="orange"
-                ariaLabel='circles-with-bar-loading'
-            />
-          </div>
-          <div>
             <Circles
                 height="80"
                 width="80"
-                color="#FFAF33"
+                color="#eb34b4"
                 ariaLabel="circles-loading"
                 wrapperStyle={{}}
                 wrapperClass=""

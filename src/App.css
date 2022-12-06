@@ -32,8 +32,8 @@
 .App {
   text-align: center;
 }
-.flexBox{display: flex;}
-.ashokPhoto{width:300px;height:250px;border-radius: 50%;background-color:steelblue}
+.flexBox{display: flex;margin:0 auto;}
+.ashokPhoto{width:300px;height:250px;border-radius: 50%;background-color:white;}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
