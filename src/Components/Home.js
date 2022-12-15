@@ -62,12 +62,12 @@ const Home = () => {
           </div>
         </div>
         <div>-------------------------------------------------------------------------------------------------------------</div>
-        <div className='aboutMeContent'>
+        <div className='aboutContent'>           
           <div className='aboutMe'>
             <h2>About Me</h2>
           </div>
           <div className='aboutMePara'>
-            <p>Hi I am ASHOK AMARA.I have 4+ years Experience in FrontEnd Development.My Major Skills Are Html, Css, Javascript, Jquery, Bootstrap and ReactJs.I have worked in streams like Healthcare,Moto,Financial,Telecom sectors.</p>
+            <p>Hi, I am ASHOK AMARA.I have 4+ years Experience in FrontEnd Development.My Major Skills Are Html, Css, Javascript, Jquery, Bootstrap and ReactJs.I have worked in streams like Healthcare,Moto,Financial,Telecom sectors.</p>
           </div>
         </div>
 
